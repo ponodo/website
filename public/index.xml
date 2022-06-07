@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ponodo</title>
+    <link>https://ponodo-wrap.com/</link>
+    <description>Recent content on Ponodo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jun 2022 14:02:26 +0700</lastBuildDate><atom:link href="https://ponodo-wrap.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://ponodo-wrap.com/docs/v1/installation/</link>
+      <pubDate>Tue, 07 Jun 2022 14:02:26 +0700</pubDate>
+      
+      <guid>https://ponodo-wrap.com/docs/v1/installation/</guid>
+      <description>Hello world</description>
+    </item>
+    
+  </channel>
+</rss>
