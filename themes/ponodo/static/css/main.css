@@ -932,6 +932,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.float-right {
+  float: right;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -975,6 +983,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-\[-3px\] {
   margin-bottom: -3px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .block {
@@ -1073,6 +1101,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 25%;
 }
 
+.w-\[55rem\] {
+  width: 55rem;
+}
+
 .max-w-\[90rem\] {
   max-width: 90rem;
 }
@@ -1087,6 +1119,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-row {
   flex-direction: row;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-between {
@@ -1116,6 +1152,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -1176,6 +1217,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-sm {
@@ -1248,4 +1293,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-slate-600:hover {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.prose-headings\:font-sans :is(:where(h1, h2, h3, h4, th):not(:where([class~="not-prose"] *))) {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.prose-headings\:font-light :is(:where(h1, h2, h3, h4, th):not(:where([class~="not-prose"] *))) {
+  font-weight: 300;
+}
+
+.prose-headings\:underline :is(:where(h1, h2, h3, h4, th):not(:where([class~="not-prose"] *))) {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
