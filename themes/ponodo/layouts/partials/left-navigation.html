@@ -1,29 +1,30 @@
-<div class="block fixed w-[19rem] pl-8 pr-4">
-    <div class="py-8">
-        <button type="button" class="transition-all border border-slate-300 hover:border-slate-400 rounded-lg px-2 py-2 w-full shadow-sm">
-            <div class="flex justify-between text-sm text-slate-400 px-2">
-                <div>Quick search</div>
-                <div>Cmd + K</div>
-            </div>
-        </button>
-    </div>
-
-    <div>
-        <ul>
-        {{ range .Site.Data.navigations.v1 }}
-            <li class="mt-6">
-                <h5 class="font-semibold py-3 text-slate-800">{{ .section }}</h5>
-                <ul class="text-slate-600 text-sm">
-                    {{ range .menus }}
-                    <li>
-                        {{ $url := printf "docs/v1%s" .path}}
-                        <a class="block py-1 pl-4 hover:text-emerald-600" href="{{ $url | absURL }}">{{ .title }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
-            </li>
-        {{ end }}
-        </ul>
-    </div>
-    
+<div class="py-8">
+    <button type="button" class="transition-all border border-slate-300 hover:border-slate-400 rounded-lg px-2 py-2 w-full shadow-sm">
+        <div class="flex justify-between text-sm text-slate-400 px-2">
+            <div>
+                <span class="inline-block h-4 w-4 mb-[-3px]">
+                    {{ partial "fontawesome.html" "magnifying-glass" }}
+                </span> Quick search</div>
+            <div>Cmd + K</div>
+        </div>
+    </button>
 </div>
+
+<div class="">
+    <ul>
+    {{ range .Site.Data.navigations.v1 }}
+        <li class="mb-6">
+            <h5 class="font-semibold py-3 text-slate-800">{{ .section }}</h5>
+            <ul class="text-slate-600 text-sm">
+                {{ range .menus }}
+                <li>
+                    {{ $url := printf "docs/v1%s" .path}}
+                    <a class="block py-1 pl-4 hover:text-emerald-600" href="{{ $url | absURL }}">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+    </ul>
+</div>
+    
