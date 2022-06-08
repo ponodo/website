@@ -1,0 +1,52 @@
+---
+v1:
+- section: Getting started
+  menus:
+  - title: Installation
+    path: "/installation/"
+  - title: Configuration
+    path: "/configuration/"
+  - title: Directory Structure
+    path: "/structure/"
+
+- section: Architecture Concepts
+  menus:
+  - title: Request Lifecycle
+    path: "/lifecycle/"
+  - title: Container
+    path: "/container/"
+  - title: Registrars
+    path: "/registrars/"
+  - title: Facades
+    path: /facades/
+
+- section: The Basics
+  menus:
+  - title: Routing
+    path: /routing
+  - title: Controllers
+    path: /controllers
+  - title: Requests
+    path: /requests
+  - title: Responses
+    path: /responses
+  - title: View
+    path: /view
+  - title: Error Handling
+    path: /errors
+  - title: Logging
+    path: /logging
+
+- section: Database
+  menus:
+  - title: Configuration
+    path: /database-configuration
+  - title: Migrations
+    path: /migrations
+
+- section: Model
+  menus:
+  - title: Introduction
+    path: /model-intro
+  - title: Relationships
+    path: /model-relationships

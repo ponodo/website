@@ -9,14 +9,14 @@
 
             <div class="max-w-[90rem] mx-auto">
 
-                {{ partial "left-navigation.html" }}
+                {{ partial "left-navigation.html" . }}
 
                 <div class="ml-[19rem] flex flex-row">
                     <div class="basis-2/3 px-4 prose prose-slate">
                         <header>
-                            <p class="font-semibold text-emerald-500">Section</p>
-                            <h1>Page Title</h1>
-                            <p class="lead">Intro</p>
+                            <p class="font-semibold text-emerald-500">{{ .Params.section }}</p>
+                            <h1>{{ .Title }}</h1>
+                            <p class="lead">{{ .Description }}</p>
                         </header>
 
                         <article>

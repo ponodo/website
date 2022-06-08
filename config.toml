@@ -1,4 +1,4 @@
-baseURL = 'https://ponodo-wrap.com/'
+baseURL = 'https://ponodo.dev/'
 languageCode = 'en-us'
 title = 'Ponodo'
 theme = "ponodo"

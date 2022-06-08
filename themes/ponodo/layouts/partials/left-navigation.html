@@ -10,29 +10,19 @@
 
     <div>
         <ul>
+        {{ range .Site.Data.navigations.v1 }}
             <li class="mt-6">
-                <h5 class="font-semibold py-3 text-slate-800">Getting started</h5>
+                <h5 class="font-semibold py-3 text-slate-800">{{ .section }}</h5>
                 <ul class="text-slate-600 text-sm">
+                    {{ range .menus }}
                     <li>
-                        <a class="block py-1 pl-4 font-bold text-emerald-500" href="#">Installation</a>
+                        {{ $url := printf "docs/v1%s" .path}}
+                        <a class="block py-1 pl-4 hover:text-emerald-600" href="{{ $url | absURL }}">{{ .title }}</a>
                     </li>
-                    <li>
-                        <a class="block py-1 pl-4 font-light" href="#">Installation</a>
-                    </li>
+                    {{ end }}
                 </ul>
             </li>
-
-            <li class="mt-6">
-                <h5 class="font-semibold py-3 text-slate-800">Getting started</h5>
-                <ul class="text-slate-600 text-sm">
-                    <li>
-                        <a class="block py-1 pl-4" href="#">Installation</a>
-                    </li>
-                    <li>
-                        <a class="block py-1 pl-4" href="#">Installation</a>
-                    </li>
-                </ul>
-            </li>
+        {{ end }}
         </ul>
     </div>
     
