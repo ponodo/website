@@ -40,13 +40,13 @@ v1:
 - section: Database
   menus:
   - title: Configuration
-    path: /database-configuration
+    path: /db-configuration
   - title: Migrations
     path: /migrations
 
 - section: Model
   menus:
-  - title: Introduction
-    path: /model-intro
+  - title: Basic
+    path: /model-basic
   - title: Relationships
     path: /model-relationships
