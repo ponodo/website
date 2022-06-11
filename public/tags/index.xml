@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ponodo</title>
-    <link>https://ponodo-wrap.com/tags/</link>
+    <link>https://ponodo.dev/tags/</link>
     <description>Recent content in Tags on Ponodo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ponodo-wrap.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ponodo.dev/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

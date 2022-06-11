@@ -2,17 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ponodo-wrap.com/docs/</loc>
-    <lastmod>2022-06-07T14:02:26+07:00</lastmod>
+    <loc>https://ponodo.dev/docs/v1/deployment/</loc>
   </url><url>
-    <loc>https://ponodo-wrap.com/docs/v1/installation/</loc>
-    <lastmod>2022-06-07T14:02:26+07:00</lastmod>
+    <loc>https://ponodo.dev/docs/v1/introduction/</loc>
   </url><url>
-    <loc>https://ponodo-wrap.com/</loc>
-    <lastmod>2022-06-07T14:02:26+07:00</lastmod>
+    <loc>https://ponodo.dev/docs/v1/model-callbacks/</loc>
   </url><url>
-    <loc>https://ponodo-wrap.com/categories/</loc>
+    <loc>https://ponodo.dev/docs/v1/model-validations/</loc>
   </url><url>
-    <loc>https://ponodo-wrap.com/tags/</loc>
+    <loc>https://ponodo.dev/docs/v1/readme/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/template-engine/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/container/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/categories/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/configuration/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/controllers/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/db-configuration/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/structure/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/errors/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/facades/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/installation/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/logging/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/migrations/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/model-basic/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/registrars/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/model-relationships/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/lifecycle/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/requests/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/responses/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/routing/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/tags/</loc>
+  </url><url>
+    <loc>https://ponodo.dev/docs/v1/view/</loc>
   </url>
 </urlset>
