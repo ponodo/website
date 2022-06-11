@@ -2,3 +2,18 @@ baseURL = 'https://ponodo.dev/'
 languageCode = 'en-us'
 title = 'Ponodo'
 theme = "ponodo"
+
+[markup]
+  [markup.highlight]
+    style = "solarized-dark"
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    tabWidth = 4
